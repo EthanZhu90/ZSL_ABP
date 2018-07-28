@@ -19,7 +19,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='FLO', help='FLO')
-parser.add_argument('--dataroot', default='/media/jianwen/ExtraDrive1/yizhe/Xian_Yongqin/cvpr17GBU/data/', help='path to dataset')
+parser.add_argument('--dataroot', default='data/', help='path to dataset')
 parser.add_argument('--matdataset', default=True, help='Data in matlab format')
 parser.add_argument('--image_embedding', default='res101')
 parser.add_argument('--class_embedding', default='att')
