@@ -70,3 +70,4 @@ CUDA_VISIBLE_DEVICES=1 python cls_ABP.py --dataset AWA1 --latent_dim 5 --sigma 0
 CUDA_VISIBLE_DEVICES=1 python cls_ABP.py --dataset AWA1 --latent_dim 5 --sigma 0.3 --langevin_s 0.3 --langevin_step 50 --preprocessing --cuda --image_embedding res101 --class_embedding att --nepoch 50 --ngh 4096 --ndh 4096 --lr 0.0001 --batch_size 64 --nz 312 --attSize 312 --resSize 2048 --syn_num 1800 
 CUDA_VISIBLE_DEVICES=1 python cls_ABP.py --dataset AWA1 --latent_dim 5 --sigma 0.3 --langevin_s 0.3 --langevin_step 50 --preprocessing --cuda --image_embedding res101 --class_embedding att --nepoch 50 --ngh 4096 --ndh 4096 --lr 0.0001 --batch_size 64 --nz 312 --attSize 312 --resSize 2048 --syn_num 1800 
 
+
