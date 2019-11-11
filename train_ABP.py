@@ -20,7 +20,7 @@ from dataset_GBU import FeatDataLayer, DATA_LOADER
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='AWA1', help='dataset: CUB, AWA1, AWA2, SUN')
-parser.add_argument('--dataroot', default='../ABP_ZSL_ICCV19/data/', help='path to dataset')
+parser.add_argument('--dataroot', default='./data/', help='path to dataset')
 parser.add_argument('--validation', action='store_true', default=False, help='enable cross validation mode')
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=4)
 parser.add_argument('--image_embedding', default='res101', type=str)
