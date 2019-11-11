@@ -11,8 +11,16 @@ Download the [data](https://www.mpi-inf.mpg.de/departments/computer-vision-and-m
 
 
 ```shell
-python train_GBU.py --dataset CUB --preprocessing --z_dim 100
-python train_GBU.py --dataset AWA1 --preprocessing --z_dim 10
-python train_GBU.py --dataset AWA2 --preprocessing --z_dim 10
-python train_GBU.py --dataset SUN --preprocessing --z_dim 10
+python train_GBU_ABP.py --dataset CUB --z_dim 10 --sigma 0.3 --langevin_s 0.1 --langevin_step 5   --batchsize 64 --nSample 300
 ```
+```shell
+python train_GBU_ABP.py --dataset AWA1 --z_dim 10 --sigma 0.3 --langevin_s 0.1 --langevin_step 5   --batchsize 64 --nSample 1500
+```
+```shell
+python train_GBU_ABP.py --dataset AWA2 --z_dim 10 --sigma 0.3 --langevin_s 0.1 --langevin_step 5   --batchsize 64 --nSample 1500
+```
+```shell
+python train_GBU_ABP.py --dataset SUN  --z_dim 10 --sigma 0.3 --langevin_s 0.1 --langevin_step 5   --batchsize 64 --nSample 300 
+```
+
+
