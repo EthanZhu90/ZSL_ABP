@@ -38,11 +38,11 @@ python train_ABP.py --dataset SUN  --z_dim 10 --sigma 0.3 --langevin_s 0.1 --lan
 If you use this code in your research, please consider citing:
 ```
 @InProceedings{zhu2019learning,
-title={Learning Feature-to-Feature Translator by Alternating Back-Propagation for Generative Zero-Shot Learning},
-author={Zhu, Yizhe and Xie, Jianwen and Liu, Bingchen and Elgammal, Ahmed},
-booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
-month = {Oct},
-year = {2019}
+    title={Learning Feature-to-Feature Translator by Alternating Back-Propagation for Generative Zero-Shot Learning},
+    author={Zhu, Yizhe and Xie, Jianwen and Liu, Bingchen and Elgammal, Ahmed},
+    booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+    month = {Oct},
+    year = {2019}
 }
 ```
 
