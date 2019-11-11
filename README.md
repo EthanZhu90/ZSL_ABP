@@ -14,7 +14,7 @@ Yizhe Zhu, Jianwen Xie , Bingchen Liu, Ahmed Elgammal
 
 ## Results evaluated on [GBU setting](https://arxiv.org/abs/1707.00600)
 
-Download the [data](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/) and compress it to the folder 'data/'.
+Download the [data](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/) and uncompress it to the folder 'data/'.
 
 To train the model, run the following command. 
 CUB datset:
