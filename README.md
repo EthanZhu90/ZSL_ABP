@@ -2,7 +2,7 @@
 code for the conference paper:
 
 Yizhe Zhu, Jianwen Xie , Bingchen Liu, Ahmed Elgammal
-"Learning Feature-to-Feature Translator by Alternating Back-Propagation for Zero-Shot Learning", ICCV, 2019
+["Learning Feature-to-Feature Translator by Alternating Back-Propagation for Zero-Shot Learning", ICCV, 2019](https://arxiv.org/pdf/1904.10056.pdf)
 
 <p align="center">
     <img src="figures/teaser.png" width="480"\>
