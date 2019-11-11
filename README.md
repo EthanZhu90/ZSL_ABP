@@ -1,5 +1,5 @@
 # ZSL_ABP
-code for the conference paper:
+This is a PyTorch implementation for the conference paper:
 
 Yizhe Zhu, Jianwen Xie , Bingchen Liu, Ahmed Elgammal
 ["Learning Feature-to-Feature Translator by Alternating Back-Propagation for Zero-Shot Learning", ICCV, 2019](https://arxiv.org/pdf/1904.10056.pdf)
@@ -8,6 +8,9 @@ Yizhe Zhu, Jianwen Xie , Bingchen Liu, Ahmed Elgammal
     <img src="figures/teaser.png" width="480"\>
 </p>
 
+## Requirements
+* Python 3
+* pytorch 1.0
 
 ## Results evaluated on [GBU setting](https://arxiv.org/abs/1707.00600)
 
