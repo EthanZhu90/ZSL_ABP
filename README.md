@@ -9,7 +9,7 @@ Yizhe Zhu, Jianwen Xie , Bingchen Liu, Ahmed Elgammal
 </p>
 
 
-## Results evaluated on [GBU setting](https://arxiv.org/abs/1707.00600)[1] 
+## Results evaluated on [GBU setting](https://arxiv.org/abs/1707.00600)
 
 Download the [data](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/) and compress it to the folder 'data/'.
 
